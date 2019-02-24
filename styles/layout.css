@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+}
+
+#erin-logo {
+  margin: 10px 0px 25px 0px;
+}
+
+#skills {
+  margin-top: 30px;
+}
+
+#main-title {
+  margin-bottom: 30px;
+}
+
+.summary {
+  margin-top: 40px;
+}
+
+.contact{
+  padding-left: 25px;
+}
+
+main {
+  margin: 0px 50px 0px 400px;
+  padding-bottom: 25px;
+}
+
+.section {
+  padding: 10px 0px 10px;
+}
+
+main h1:after {
+  display: block;
+  content: "";
+  margin-top: -2px;
+  position: relative;
+  top: -12px;
+  background: #000000;
+  width: 100%;
+  height: 2px;
+}
+
+main h1 span {
+  background-color: #ffffff;
+  padding: 0 10px 0 5px;
+  position: relative;
+  z-index: 101;
+}
+#sidebar {
+  margin-left: 25px;
+  position: fixed;
+  width: 300px;
+  
+}
+
+a {
+  color: #000000
+}
+
+a:hover {
+  color: #7FF7C0;
+}
